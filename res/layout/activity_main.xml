@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:columnWidth="250dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:longClickable="true"
+        android:numColumns="auto_fit"
+        android:stretchMode="none"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+    <Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="Test Button" />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Check Box Quiz View" />
+	
+	<Button
+	    android:id="@+id/button3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Log In" 
+	    android:gravity="center"/>
+	
+	<Button
+	    android:id="@+id/button4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Answer Correct" 
+	    android:gravity="center"/>
+
+	<Button
+	    android:id="@+id/button5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Answer Incorrect" 
+	    android:gravity="center"/>
+	
+	<Button
+	    android:id="@+id/buttontf"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="True/False" 
+	    android:gravity="center"/>
+	
+	<Button
+	    android:id="@+id/buttonrb"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Radio Button" 
+	    android:gravity="center"/>
+
+</LinearLayout>

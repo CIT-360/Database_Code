@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Time To Study</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_menu">Tests</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="results">Results</string>
+    <string name="test_path">Test Path</string>
+    <string-array name="courseName">
+        <item>FDCNC 350</item>
+        <item>CIT 495</item>
+        <item>SOC 330</item>
+        <item>ENG 350 R</item>
+        <item>SOC 355</item>
+        <item>FDCA 201</item>
+	</string-array>
+
+</resources>
